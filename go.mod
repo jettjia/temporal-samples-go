@@ -9,6 +9,7 @@ require (
 	github.com/golang/snappy v0.0.4
 	github.com/google/uuid v1.6.0
 	github.com/hashicorp/go-plugin v1.4.5
+	github.com/nexus-rpc/sdk-go v0.0.9
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/pborman/uuid v1.2.1
 	github.com/prometheus/client_golang v1.18.0
@@ -26,7 +27,6 @@ require (
 	go.temporal.io/sdk/contrib/opentelemetry v0.6.0
 	go.temporal.io/sdk/contrib/opentracing v0.1.0
 	go.temporal.io/sdk/contrib/tally v0.2.0
-	go.temporal.io/sdk/contrib/tools/workflowcheck v0.2.0
 	go.uber.org/multierr v1.11.0
 	go.uber.org/zap v1.24.0
 	google.golang.org/protobuf v1.34.2
@@ -67,7 +67,6 @@ require (
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/matttproud/golang_protobuf_extensions/v2 v2.0.0 // indirect
 	github.com/mitchellh/go-testing-interface v1.14.1 // indirect
-	github.com/nexus-rpc/sdk-go v0.0.9 // indirect
 	github.com/oklog/run v1.1.0 // indirect
 	github.com/outcaste-io/ristretto v0.2.3 // indirect
 	github.com/philhofer/fwd v1.1.2 // indirect
